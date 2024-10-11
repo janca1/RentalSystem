@@ -5,7 +5,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RentalService {
+public class RentalService implements IRentalService {
     private List<Movie> movies;
     private List<Customer> customers;
 
